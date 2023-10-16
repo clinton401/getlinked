@@ -555,14 +555,14 @@ function Home() {
           className={hmcss.timeline}
           id="timeline"
           initial="hidden"
-          transition={{ staggerChildren: 0.3 }}
+          transition={{ staggerChildren: 0.1 }}
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <motion.h2 variants={pLeft} viewport={{ once: false, amount: 0.2 }}>
+          <motion.h2 variants={pLeft} >
             Timeline
           </motion.h2>
-          <motion.h6 variants={pRight} viewport={{ once: false, amount: 0.2 }}>
+          <motion.h6 variants={pRight} >
             Here is the breakdown of the time we anticipate <br /> using for the
             upcoming event.
           </motion.h6>
