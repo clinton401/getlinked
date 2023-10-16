@@ -1,0 +1,133 @@
+header {
+    height: 80px;
+    border-bottom: 1px solid rgba(229,231,235, 0.5);
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.desktop {
+ display: flex;
+ width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header > nav > nav {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+header > nav >nav:nth-child(1) {
+    width: 40%;
+}
+header > nav > nav:nth-child(2) {
+    width: 60%;
+    justify-content: space-between;
+}
+header > nav > nav:nth-child(1) a {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: clash-b;
+    text-decoration: none;
+    color: var(--white);
+   
+}
+header > nav > nav:nth-child(2) a {
+     font-size: 15px;
+    color: var(--white);
+    text-decoration: none;
+
+    /* padding-right: 25px; */
+   
+}
+.dextop
+header ul li a{
+   
+    font-size: 15px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    
+    color: var(--text-grad);
+}
+
+.active{
+   
+    color: var(--text-grad);
+}
+header > nav > nav:nth-child(2) a:hover {
+    color: var(--text-grad);
+}
+/* header > nav:nth-child(2) a:visited {
+    color: var(--text-grad);
+} */
+header > nav >  nav:nth-child(2) ul {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+}
+header > nav:nth-child(1) a span {
+    color: var(--text-grad);
+}
+.mobile {
+    display :none ;
+}
+.glink {
+       font-size: 25px;
+    font-weight: 900;
+    font-family: clash-b;
+    text-decoration: none;
+    color: var(--white);
+}
+.glink span {
+     color: var(--text-grad);
+}
+.mobile ul {
+    width: 100%;
+    /* padding-bottom: 40px; */
+}
+.mobile li {
+    width: 100%;
+    /* border: 1px solid green; */
+    /* text-align: center; */
+    /* padding: 10px 0px; */
+    display: flex;
+    height: 100%;
+    justify-content: left;
+}
+.alinks:visited {
+    color: var(--text-grad)
+}
+.mobile li a{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* border: 1px solid red; */
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    height: 100%;
+    text-decoration: none;
+    color: var(--white);
+}
+.mobile li a:hover {
+    background: black;
+}
+.mobile button {
+    margin: 0 auto;
+}
+@media screen and (max-width: 850px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

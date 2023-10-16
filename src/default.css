@@ -1,0 +1,8 @@
+:root {
+    --text-grad: #D434FE;
+    --button-grad: linear-gradient( to left, #903aff, #d434fe, #ff2bd9, #fe34b9 );
+    --p-grad: #FF26B9;
+    --white: #FFFFFF;
+    --background: #150e28;
+
+}
